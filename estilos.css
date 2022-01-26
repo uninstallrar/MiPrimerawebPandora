@@ -1,0 +1,101 @@
+
+
+
+.caja { background-color: rgb(248, 123, 148);
+margin-top: 50px;
+margin-right: 70px;
+margin-left: 30px;
+margin-bottom: 5px;
+padding: 50px;
+}
+
+
+body{ background-color: burlywood;}
+
+.cabeza1 { background-color: rgba(238, 40, 238, 0.959);
+  height: 100px;
+     width:100%;
+  
+}
+
+.letradetitulo1 {font-family:valentine;
+  text-align: center;
+}
+
+@font-face {font-family:"valentine";
+src: url(/Fonts/valentine.ttf)}
+
+nav ul li {
+ text-align: center;
+float:center;
+margin: 10px;
+padding:15px;
+background-color: rgb(191, 241, 8);
+width: 90%;
+height: 20px;}
+ 
+.TituloDeMenu{text-align: center;
+background-color: rgb(191, 241, 8);}
+
+.textodeindice{background-color: black;width: 80%; 
+   color: white; text-align: center;
+   }
+
+  #content { float: left;
+  width: 80%;
+min-height: 500px;}
+
+#container { background-color: rgb(248, 252, 4);}
+
+aside { float:left; 
+width: 20%;}
+
+.clase1 { 
+  width: 80%
+  height= 30px
+
+}
+
+.article2{--color-primario:rgba(12, 245, 245, 0.959);
+background-color: var(--color-primario);
+padding: 0%;
+margin-left: 0%;}
+
+.hache2 {font-family: monospace;}
+
+
+@font-face {font-family:"Webrush\ Demo.ttf";
+  src: url(/Fonts/Webrush\ Demo.ttf)}
+
+.perfil{font-family:"Webrush\ Demo.ttf"}
+
+.barra{ float: left
+width= 20%;
+background-color: rgba(238, 40, 238, 0.959);
+min-height: 700px;
+}
+
+.sectorperfil{background-color: black
+  width 300px;
+  height: 500px
+
+  ;}
+  .foto{width: 250px;
+  height: 250px;
+  margin-left: 2px;
+}
+
+
+.clearfix{clear:both;
+  background-color: orange;
+width: 100%;
+height: 190px;}
+
+.titulodelpie{text-align: center;
+font-family:valentine;
+}
+
+.pieizquierdo{text-align: left;
+}
+
+.piederecho{text-align: right;}
